@@ -1,0 +1,71 @@
+<%-- 
+    Document   : content
+    Created on : Nov 10, 2011, 12:13:25 PM
+    Author     : FreeX
+--%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%> 
+<%@page import="dao.productDAO"%>
+<%@page import="pojo.product"%>
+<%@page import="java.util.ArrayList"%>
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<c:if test="${param.act == 'view'}">
+    <h1 style="color:black;">Nikon D800 và D900 sắp ra mắt với giá từ 53 triệu đồng</h1>
+<hr/>
+<strong>Giá bán dự kiến cho 2 thiết bị này sẽ rơi vào khoảng 2.500-2.800 USD, tương đương 53-59 triệu đồng cho D800 và 4.000 USD, tương đương 84 triệu đồng cho D900.
+</strong><br/>
+<img class="size-full wp-image-81058    " src="http://cafef1.com/wp-content/uploads/2011/11/nikon-d800.jpg" alt="" width="550" height="570">
+<br/>
+Tại thời điểm này, trên tạp chí công nghệ "Chasseur d'images" của Pháp xuất hiện khá nhiều tin tức cho thấy hãng Nikon đang chuẩn bị các bước cuối cùng để tung ra 2 model máy ảnh Nikon D800 và D900.
+
+Nikon D800 sẽ là một trong hai máy ảnh mới nhất của Nikon sắp ra đời
+Tạp chí "Chasseur d'images" được biết đến như là một trong những tờ báo công nghệ uy tín hàng đầu nước Pháp. Theo tạp chí này cho thấy thời gian dự kiến tung ra D800 sẽ rơi vào ngày 30-11 tới đây, còn D900 xuất hiện trễ hơn vào tháng 12. 
+<br/>
+Nikon D800 và D900 sẽ là 2 dòng máy ảnh DSLR Full Frame mới nhất sắp có mặt trên thị trường.<br/>
+<img class="size-full wp-image-81079" title="nikon-d800" src="http://cafef1.com/wp-content/uploads/2011/11/nikon-d8001.jpg" alt="" width="540" height="420">
+<br/>
+Nikon D700 tiền thân của D800 và D900.
+Ngoài việc tiết lộ thời gian, "Chasseur d'images" cũng đưa ra cấu hình dự kiến cho 2 sản phẩm này. Theo đó, trong khi D800 sở hữu bộ cảm biến hình ảnh 18MP thì D900 lại được tích hợp với bộ cảm biến hình ảnh lên đến 36Mp. Cả 2 đều hỗ trợ quay phim HD 720p và 1080p.
+
+Hiện giá bán dự kiến cho 2 thiết bị này rơi vào khoảng 53 triệu cho D800 và 84 triệu cho D900.
+<br/><br/><br/><br/>
+</c:if>    
+
+<c:if test="${param.act != 'view'}">
+Hiển thị bao nhiêu sản phẩm 1 trang :
+<select onchange='doSomething(this)' onclick='resetIndex(this)'>
+    <option value='5'
+    <c:if test="${sotrang == 5}">
+          selected='selected'
+    </c:if>
+    >5</option>
+    <option value='10'
+    <c:if test="${sotrang == 10}">
+           selected='selected'
+    </c:if>
+    >10</option>
+    
+    <option value='20'
+    <c:if test="${sotrang == 20}">
+          selected='selected'
+    </c:if>
+    >20</option>
+    
+    <option value='50'
+    <c:if test="${sotrang == 50}">
+          selected='selected'
+    </c:if>
+    >50</option>
+</select>
+  <c:forEach var="i" begin="${trang}" end="${trang + sotrang}" step="1"  > 
+      <c:if test="${row.size() < i}">
+          
+      </c:if>
+      
+  </c:forEach>
+       <c:forEach var="row" items="${sanpham}"> 
+
+       </c:forEach>
+</c:if> 

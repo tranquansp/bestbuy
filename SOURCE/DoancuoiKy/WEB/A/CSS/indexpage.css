@@ -1,0 +1,79 @@
+body{
+    font-size: 12px;
+    margin:  0px;
+    font-family: Arial;
+}
+/*      link        */
+a img{
+    border: none;
+}
+a{
+    text-decoration: none;
+}
+a:link, a:active, a:visited {/*link trong bai viet khi chua chi chuot vao*/
+	color:#996600;
+	text-decoration:none;
+	}
+
+a:hover {/*link trong bai viet khi chi chuot vao*/
+	text-decoration:none;
+	}
+/* ---- end ----*/        
+input, textarea{
+    font-family: Arial;
+    font-size: 13px;
+    padding:  1px;
+}
+
+/*------------------------------*/
+
+.wrap_page
+{
+	width: 100%;
+}
+.header{
+	width:100%;
+	height:200px;
+	text-align:left;
+	color:black;
+	background:#000000 url(../img/header.png) bottom center no-repeat; 
+	float:left;	/* anh banner */
+}
+.footer{
+	width:100%;
+	height:100px;
+	text-align:left;
+	color:black;
+	background: #000000 url(../img/footer.png) bottom center no-repeat; 
+	float:left;	/* anh banner */
+}
+
+.top{
+	height:50px;
+}
+.footer{
+	height: 100px;
+}
+.mainpage
+{
+    background:#000000;
+	padding-top:15px;
+	width: 100%;
+	display: table;
+	
+}
+.column_left
+{
+    margin-left :12px;
+    background:#000000;
+	float: left;
+	width: 20%;
+}
+.column_right
+{
+    margin-right:12px;
+    background:#696969;
+	float: right;
+	width: 77%;
+}
+

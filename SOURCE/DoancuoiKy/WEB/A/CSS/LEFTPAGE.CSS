@@ -1,0 +1,41 @@
+.column_left .box{
+	border: #fff 1px solid;
+	padding: 1px;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+.box h3{
+	background:#1C1C1C url(page.png) top left no-repeat;;
+	font-size: 160%;;
+	margin: 0px;
+	line-height: 30px;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	color: white;
+	text-transform: uppercase;
+}
+.box div{
+	border: #fff 1px solid;
+	background:#c3c3c3;
+}
+.box div a{
+	display: block;
+	line-height: 20px;
+	margin-left: 20px;
+	text-indent: 5px;
+	border-left: #ececec 1px solid;
+}
+
+/*GENERAL RULES<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+
+a:link, a:active, a:visited {/*link trong bai viet khi chua chi chuot vao*/
+	color:#800000;
+	text-decoration:none;
+	}
+
+a:hover {/*link trong bai viet khi chi chuot vao*/
+	text-decoration:none;
+	color:#000000;
+	}

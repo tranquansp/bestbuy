@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+	       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+	       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+<tiles-definitions>
+    <definition name="Page" template="/template/Template.jsp">
+        <put-attribute name="title" value="Page" />
+        <put-attribute name="header" value="/page/Header.jsp" />       
+        <put-attribute name="left" value="/page/Left.jsp" />
+        <put-attribute name="content" value="/page/Content1.jsp" />
+        <put-attribute name="footer" value="/page/Footer.jsp" />
+    </definition>
+    <definition name="Compare" extends="Page">
+        <put-attribute name="title" value="So Sánh" />
+        <put-attribute name="content" value="/page/Compare_content.jsp"/>    
+    </definition>
+        <definition name="Detail" extends="Page">
+        <put-attribute name="title" value="Chi Tiết" />
+        <put-attribute name="content" value="/page/Detail_content.jsp"/>    
+    </definition>
+        <definition name="Finish" extends="Page">
+        <put-attribute name="title" value="Hoàn Thành" />
+        <put-attribute name="content" value="/page/Finish_content.jsp"/>    
+    </definition>
+        <definition name="Intro" extends="Page">
+        <put-attribute name="title" value="Introduction" />
+        <put-attribute name="content" value="/page/Intro_content.jsp"/>    
+    </definition>
+        <definition name="Login" extends="Page">
+        <put-attribute name="title" value="Đăng Nhập" />
+        <put-attribute name="content" value="/page/Login_content.jsp"/>    
+    </definition>
+        <definition name="Logout" extends="Page">
+        <put-attribute name="title" value="Log out" />
+        <put-attribute name="content" value="/page/Logout_content.jsp"/>    
+    </definition>
+        <definition name="Order" extends="Page">
+        <put-attribute name="title" value="Đặt hàng" />
+        <put-attribute name="content" value="/page/Order_content.jsp"/>    
+    </definition>
+        <definition name="BaoGia" extends="Page">
+        <put-attribute name="title" value="Báo giá" />
+        <put-attribute name="content" value="/page/BaoGia_content.jsp"/>    
+    </definition>
+        <definition name="SignUp" extends="Page">
+        <put-attribute name="title" value="Register" />
+        <put-attribute name="content" value="/page/SignUp_content.jsp"/>    
+    </definition>
+        <definition name="ShopCart" extends="Page">
+        <put-attribute name="title" value="Giỏ Hàng" />
+        <put-attribute name="content" value="/page/ShopCart_content.jsp"/>    
+    </definition>
+    <definition name="History" extends="Page">
+        <put-attribute name="title" value="Lịch Sử Mua Hàng" />
+        <put-attribute name="content" value="/page/History_content.jsp"/>    
+    </definition>
+    <definition name="APage" template="/a/template/Template.jsp">
+        <put-attribute name="title" value="APage" />
+        <put-attribute name="header" value="/a/page/header.jsp" />       
+        <put-attribute name="left" value="/a/page/left.jsp" />
+        <put-attribute name="content" value="/a/page/Welcome.jsp" />
+        <put-attribute name="footer" value="/a/page/footer.jsp" />
+    </definition>
+    <definition name="Welcome" extends="APage">
+        <put-attribute name="title" value="Xin chào admin" />
+        <put-attribute name="content" value="/a/page/Welcome.jsp"/>    
+    </definition>
+        <definition name="Add_Category" extends="APage">
+        <put-attribute name="title" value="Xin chào admin" />
+        <put-attribute name="content" value="/a/page/View/form/category/add/init.jsp"/>    
+    </definition>
+        <definition name="Ctrl_Category" extends="APage">
+        <put-attribute name="title" value="Xin chào admin" />
+        <put-attribute name="content" value="/a/page/View/form/category/ctrl/init.jsp"/>    
+    </definition>
+        <definition name="Add_Product" extends="APage">
+        <put-attribute name="title" value="Xin chào admin" />
+        <put-attribute name="content" value="/a/page/View/form/product/add/init.jsp"/>    
+    </definition>
+        <definition name="Ctrl_Product" extends="APage">
+        <put-attribute name="title" value="Xin chào admin" />
+        <put-attribute name="content" value="/a/page/View/form/product/ctrl/init.jsp"/>    
+    </definition>
+            <definition name="Class_Product" extends="APage">
+        <put-attribute name="title" value="Xin chào admin" />
+        <put-attribute name="content" value="/a/page/View/form/product/class/init.jsp"/>    
+    </definition>
+        <definition name="Ctrl_Order" extends="APage">
+        <put-attribute name="title" value="Xin chào admin" />
+        <put-attribute name="content" value="/a/page/View/form/order/ctrl/init.jsp"/>    
+    </definition>
+            <definition name="Ctrl_User" extends="APage">
+        <put-attribute name="title" value="Xin chào admin" />
+        <put-attribute name="content" value="/a/page/View/form/user/ctrl/init.jsp"/>    
+    </definition>
+</tiles-definitions>

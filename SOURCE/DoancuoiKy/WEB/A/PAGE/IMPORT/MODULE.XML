@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<root>
+	<module id="category">
+		<name_parent>Mục Lục Sản Phẩm</name_parent>
+                <id_child>add</id_child>
+                <name_child>Thêm mục lục</name_child>
+	</module>
+        <module id="category">
+		<name_parent>Mục Lục Sản Phẩm</name_parent>
+                <id_child>ctrl</id_child>
+                <name_child>Quản lý mục lục</name_child>
+	</module>
+        <module id="product">
+		<name_parent>Sản Phẩm</name_parent>
+                <id_child>add</id_child>
+                <name_child>Thêm sản phẩm</name_child>
+	</module>
+        <module id="product">
+		<name_parent>Sản Phẩm</name_parent>
+                <id_child>ctrl</id_child>
+                <name_child>Quản lý Sản Phẩm</name_child>
+	</module>
+        <module id="product">
+		<name_parent>Sản Phẩm</name_parent>
+                <id_child>class</id_child>
+                <name_child>Phân loại sản phẩm</name_child>
+	</module>
+        <module id="order">
+		<name_parent>Hóa đơn</name_parent>
+                <id_child>ctrl</id_child>
+                <name_child>Quản lý hóa đơn</name_child>
+	</module>
+        <module id="user">
+		<name_parent>Quản Lý User</name_parent>
+                <id_child>ctrl</id_child>
+                <name_child>Chỉnh sửa thông tin user</name_child>
+	</module>
+        
+        <module id="customer">
+		<name_parent>Khách Hàng</name_parent>
+                <id_child>ctrl</id_child>
+                <name_child>Quản lý khách hàng</name_child>
+	</module>
+        <module id="customer">
+		<name_parent>Khách Hàng</name_parent>
+                <id_child>class</id_child>
+                <name_child>Phân loại khách hàng</name_child>
+	</module>
+
+        <module id="advert">
+		<name_parent>Quản Lý Quảng Cáo</name_parent>
+                <id_child>add</id_child>
+                <name_child>Thêm quảng cáo</name_child>
+	</module>
+        <module id="advert">
+		<name_parent>Quản Lý Quảng Cáo</name_parent>
+                <id_child>ctrl</id_child>
+                <name_child>Quản lý quảng cáo</name_child>
+	</module>
+        
+                <module id="website">
+		<name_parent>Quản Lý WebSite</name_parent>
+                <id_child>security</id_child>
+                <name_child>Bảo mật website</name_child>
+	</module>
+                <module id="website">
+		<name_parent>Quản Lý WebSite</name_parent>
+                <id_child>bandwish</id_child>
+                <name_child>Quản lý băng thông</name_child>
+	</module>
+                <module id="website">
+		<name_parent>Quản Lý WebSite</name_parent>
+                <id_child>style</id_child>
+                <name_child>Quản lý giao diện</name_child>
+	</module>
+                <module id="website">
+		<name_parent>Quản Lý WebSite</name_parent>
+                <id_child>upfile</id_child>
+                <name_child>Quản lý file</name_child>
+	</module>
+        
+</root>

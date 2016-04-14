@@ -1,0 +1,173 @@
+.column_right{
+    border: 1px solid #999999;
+    padding: 1px;
+}
+
+.pathway div{
+    background-color: #1C1C1C;
+    height: 30px;
+    font-size: 16px;
+    color: white;   
+    font-weight: bold;
+}
+.pathway div span{
+    float: left;
+    line-height: 30px;
+    background: url("../img/icon_next.gif") no-repeat 5px 7px;
+    text-indent: 25px;
+    margin-left: 5px;
+}
+.pathway div span a{    
+    color: white;   
+}
+.pathway div span a:hover{
+    color: red;
+}
+
+/*  form data*/
+.form_data{
+    margin-top: 10px;
+    border-bottom: 1px solid #cccccc;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+.form_data form{
+    width: 100%;
+    display: table;
+}
+.form_data form div{
+    float: left;
+    margin-left: 10px;    
+}
+
+.form_data form div.btn{
+    clear: both;
+    margin-top: 10px;
+}
+
+.form_data form div.btn input{
+    font-weight: bold;
+}
+
+.form_data div textarea,
+.form_data div select,
+.form_data div input{
+    display: block;
+}
+.form_data form div input.orders{
+    width:  60px;
+}
+
+/*form news*/
+.form_data form div.news{
+    width: 98%;
+}
+.news input,
+.news textarea{
+    width:  98%;
+}
+.news input.btn{
+    width: 100px;
+}
+
+/*box_news*/
+.box_news img.thumb{
+    width: 80px;
+    height: 60px;
+    float: left;
+    margin-right: 4px;
+    padding: 1px;
+    border:  1px solid #cccccc;
+}
+img.thumb{
+    width: 80px;
+    height: 60px;
+    float: left;
+    margin-right: 4px;
+    padding: 1px;
+    border:  1px solid #cccccc;
+}
+
+.box_news div.subject{
+    font-weight: bold;
+    clear: both;
+}
+.box_news div.subject span{
+    font-weight: normal;
+    color: #747474;
+    font-size: 11px;
+    float: right;    
+}
+.box_news div.des{
+    width:  100%;
+    display: table;
+    margin-top: 6px;
+}
+.box_news div.keysearch{
+    clear: both;
+    margin-top: 5px;
+}
+
+/*product*/
+
+.form_data div.product{
+    float: none;
+    width:  100%;
+    display: table;
+}
+.form_data div.product div{
+    float: left;
+}
+.form_data div.product textarea.des{
+    width:  95%;
+}
+
+
+/*show data*/
+
+
+.show_data{
+    padding-bottom: 10px;
+    margin: 2px;
+}
+.show_data table{
+    border-top:  1px solid #cccccc;
+    border-right:  1px solid #cccccc;
+}
+.show_data table td{
+    padding:  3px;
+    border-left:  1px solid #cccccc;
+    border-bottom:  1px solid #cccccc;
+} 
+.show_data table tr.title td{
+    background-color: #E8E8E8;
+    font-weight: bold;
+    text-align: center;
+}
+
+.show_data table tr.nextpage td{
+    background-color: #E8E8E8; 
+}
+.show_data table tr.nextpage td span{
+    color: red;
+    font-size: 16px;
+    font-weight: bold;
+}
+.show_data table tr.nextpage td div{
+    float: right;
+}
+.show_data table tr.nextpage td div a{
+    float: left;
+    margin-right: 4px;
+    line-height: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    border: #787878 1px solid;
+}
+.show_data table tr.nextpage td div a.active{
+    background-color: red;
+    color: yellow;
+    font-size: 18px;
+}
