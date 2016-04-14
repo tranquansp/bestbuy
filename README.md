@@ -1,1 +1,1 @@
-bestbuy
+Imitate bestbuy : Java JSP + Sprint + Hibernate + mysql
